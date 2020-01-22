@@ -1,3 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh 20vh 60vh 15vh; /*(percentual da tela = 100%)*/
+    /*grid-gap: 20px;*/
+}
+
+header{
+    background-color: goldenrod;
+    grid-column: 1/4;
+}
+
+footer{
+    background-color: saddlebrown;
+    grid-column: 1/4;
+}
+
+main{
+    background-color: fuchsia;
+    grid-column: 1/4;
+    grid-row-start:2 
+}
+
+aside1{
+    background-color: red;
+    grid-column: 1/4;
+    grid-row-start:3
+}
+
+aside2{
+    background-color: blue;
+    grid-column: 2/4;
+    grid-row-start:3
+
+}
+aside3{
+    background-color: green;
+    grid-column: 3/4;
+    grid-row-start:3
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  CORES PADRAO (Color Palette 168803)
     #6E5773
     #D45D79
